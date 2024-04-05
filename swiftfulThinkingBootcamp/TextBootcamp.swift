@@ -9,28 +9,21 @@ import SwiftUI
 
 struct TextBootcamp: View {
     var body: some View {
-        Text("Hello, World!".capitalized)
+        Text("Hello, World! This is the swiftful thinking bootcamp.I am really enjoying this course.I am really enjoying this course")
 //            .font(.body)
 //            .fontWeight(.semibold)
 //            .bold()
 //            .underline()
+//            .underline(true, color: Color.red)
 //            .italic()
-//            .strikethrough()
-//            .strikethrough(true, color: Color.orange)
-//            .font(.system(size: 24, weight: .semibold, design: .serif))
-//            .baselineOffset(50)
-//            .kerning(10)
-//            .foregroundColor(.orange)
-//            .multilineTextAlignment(.leading)
-            .frame(width: 200, height: 100, alignment: .leading)
-            .minimumScaleFactor(0.1)
+//            .strikethrough(true, color: Color.blue)
+           // .font(.system(size: 60, weight: .semibold, design: .serif))
+            .multilineTextAlignment(.trailing)
+            .foregroundColor(.red)
+            .frame(width: 200, height: 200, alignment: .center)
         
-        
-        
-            
-    }
+   }
 }
-
 #Preview {
     TextBootcamp()
 }
